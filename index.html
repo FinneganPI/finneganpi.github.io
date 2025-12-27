@@ -129,7 +129,9 @@
     <div class="modal-content">
       <span class="modal-close">&times;</span>
       <h2>Request a no-obligation confidential consultation</h2>
-      <form action="https://formsubmit.co/788c9df92158a4a614125f6e4ffad3e3" method="POST">
+      <form action="https://formsubmit.co/788c9df92158a4a614125f6e4ffad3e3" method="POST"
+      onsubmit="gtag('event','form_submit');">
+
         <input type="text" name="name" placeholder="Your Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
         <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
