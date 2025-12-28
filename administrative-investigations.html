@@ -4,21 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Administrative & Workplace Investigations | QED Investigations</title>
-  <meta name="description" content="Independent administrative and workplace investigations by a California licensed private investigator serving Fresno, Madera, Merced, and Mariposa Counties." />
+  <title>Workplace & Administrative Investigations | QED Investigations | California Private Investigator</title>
 
-  <!-- Canonical (helps Google choose the correct URL) -->
+  <meta name="description" content="QED Investigations (finneganpi.com) provides confidential workplace and administrative investigations, personnel investigations, surveillance, and related services in California’s Central Valley. Licensed California Private Investigator (BSIS #189960). Serving Fresno, Madera, Merced, and Mariposa Counties." />
+
+  <!-- Canonical (match the version Google is treating as canonical; adjust if needed) -->
   <link rel="canonical" href="https://finneganpi.com/administrative-investigations.html" />
 
-  <!-- Social sharing (optional but fine) -->
-  <meta property="og:title" content="Administrative & Workplace Investigations | QED Investigations" />
-  <meta property="og:description" content="Independent administrative and workplace investigations across California’s Central Valley." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Workplace & Administrative Investigations | QED Investigations" />
+  <meta property="og:description" content="Confidential, defensible investigations by a California-licensed Private Investigator (BSIS #189960). Serving Fresno, Madera, Merced, and Mariposa Counties." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://finneganpi.com/administrative-investigations.html" />
   <meta property="og:image" content="https://finneganpi.com/assets/for-social-media-logo.png" />
 
-  <!-- Styles: reuse your existing stylesheet -->
+  <!-- Twitter -->
+  <meta name="twitter:title" content="Workplace & Administrative Investigations | QED Investigations" />
+  <meta name="twitter:description" content="Independent workplace and administrative investigations by a California-licensed Private Investigator serving California’s Central Valley." />
+
+  <!-- Favicon and styles -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="styles.css" />
 
-  <!-- Google Analytics (same as your homepage) -->
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DB4X3SK6NC"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -27,101 +38,338 @@
     gtag('config', 'G-DB4X3SK6NC');
   </script>
 
-  <!-- Schema: service-focused (supplements your homepage schema) -->
+  <!-- Page-only readability overrides (removes constitution background on this page content area) -->
+  <style>
+    /* Keep your overall site background; make this page's reading area clean */
+    .site-container {
+      background-image: none !important;
+      background-color: rgba(255,255,255,0.96) !important;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.25) !important;
+    }
+
+    .content-page h1 {
+      text-align: center;
+      margin: 0.5rem 0 0.25rem 0;
+      color: #5f6b78;
+      font-family: 'Copperplate Bold','Copperplate Gothic Bold',Copperplate,serif;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 1.35rem;
+    }
+
+    .content-page .subtitle {
+      text-align: center;
+      color: #5f6b78;
+      margin: 0.25rem auto 1.25rem auto;
+      max-width: 62ch;
+      font-size: 1.02rem;
+      line-height: 1.55;
+    }
+
+    .content-page h2 {
+      color: #5f6b78;
+      margin-top: 1.6rem;
+      font-size: 1.15rem;
+    }
+
+    .content-page p, .content-page li {
+      color: #222;
+      line-height: 1.65;
+      font-size: 1.05rem;
+    }
+
+    .content-page ul { margin: 0.65rem 0 0.65rem 1.2rem; }
+
+    .callout {
+      background: rgba(31,111,229,0.08);
+      border-left: 4px solid #1f6fe5;
+      padding: 0.9rem 1rem;
+      margin: 1.1rem 0;
+      border-radius: 10px;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      margin-top: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .cta-button {
+      background: #1f6fe5;
+      color: #fff;
+      font-weight: 800;
+      padding: 0.75rem 1.2rem;
+      border-radius: 999px;
+      display: inline-block;
+      text-decoration: none;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.20);
+      letter-spacing: 0.01em;
+    }
+
+    .cta-button.secondary { background: #a3493f; }
+
+    .mini-note {
+      font-size: 0.95rem;
+      color: #5f6b78;
+      text-align: center;
+      margin: 0.25rem 0 0.75rem 0;
+    }
+
+    .simple-form {
+      margin-top: 1rem;
+      padding: 1rem;
+      background: rgba(255,255,255,0.95);
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 12px;
+    }
+
+    .simple-form input,
+    .simple-form textarea {
+      width: 100%;
+      box-sizing: border-box;
+      margin-top: 0.5rem;
+      padding: 0.75rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #f9f9f9;
+      font-size: 1rem;
+      font-family: inherit;
+    }
+
+    .simple-form textarea { min-height: 140px; }
+
+    .back-home {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .back-home a { text-decoration: none; }
+  </style>
+
+  <!-- Schema: include BOTH the service focus and your broader PI profile -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Administrative & Workplace Investigations",
-    "provider": {
-      "@type": "LocalBusiness",
-      "name": "QED Investigations",
-      "url": "https://finneganpi.com",
-      "telephone": "+1-559-373-0901"
-    },
+    "@type": ["LocalBusiness", "ProfessionalService", "PrivateDetective"],
+    "name": "QED Investigations",
+    "url": "https://finneganpi.com/administrative-investigations.html",
+    "logo": "https://finneganpi.com/assets/logo.png",
+    "image": "https://finneganpi.com/assets/for-social-media-logo.png",
+    "description": "Confidential workplace and administrative investigations, personnel investigations, surveillance, and related investigative services in California’s Central Valley by a California-licensed Private Investigator (BSIS #189960).",
+    "telephone": "+1-559-373-0901",
+    "email": "mailto:chris@finneganpi.com",
     "areaServed": [
-      "Fresno County, CA",
-      "Madera County, CA",
-      "Merced County, CA",
-      "Mariposa County, CA"
+      { "@type": "AdministrativeArea", "name": "Fresno County, CA" },
+      { "@type": "AdministrativeArea", "name": "Madera County, CA" },
+      { "@type": "AdministrativeArea", "name": "Merced County, CA" },
+      { "@type": "AdministrativeArea", "name": "Mariposa County, CA" }
+    ],
+    "sameAs": [
+      "https://search.dca.ca.gov/?q=013773"
+    ],
+    "provider": {
+      "@type": "Person",
+      "name": "Chris Finnegan",
+      "jobTitle": "Private Investigator",
+      "description": "Retired California Highway Patrol supervisor with 28 years of service. Experienced in administrative and criminal investigations, critical incidents, and personnel matters.",
+      "sameAs": "https://search.dca.ca.gov/?q=013773"
+    },
+    "serviceType": [
+      "Administrative Investigations",
+      "Workplace Investigations",
+      "Personnel Investigations",
+      "Employee Misconduct Investigations",
+      "Surveillance Operations",
+      "Traffic Collision Investigations",
+      "Critical Incident Investigations"
     ]
   }
   </script>
 </head>
 
 <body>
-  <div class="site-container">
+
+  <div class="site-container content-page">
     <div class="inner-content">
 
       <header style="text-align:center;">
-        <img src="assets/logo.svg" alt="QED Investigations logo" class="logo" />
-        <h1 class="hero-title" style="margin-bottom:0.25rem;">Administrative & Workplace Investigations</h1>
-        <p class="tagline" style="margin-top:0;">Independent. Objective. Confidential.</p>
+        <a href="/" style="text-decoration:none;">
+          <img src="assets/logo.svg" alt="QED Investigations logo" class="logo" />
+        </a>
 
-        <!-- Simple navigation back to home -->
-        <p style="margin-top:1rem;">
-          <a href="/" style="color:#a3493f; font-weight:bold; text-decoration:none;">← Back to Home</a>
+        <h1>Workplace & Administrative Investigations</h1>
+        <p class="subtitle">
+          QED Investigations provides confidential investigative services for individuals, attorneys, businesses, and public agencies across California’s Central Valley.
+        </p>
+
+
+        <div class="cta-row">
+          <a class="cta-button" href="tel:+15593730901">Call: (559) 373-0901</a>
+          <a class="cta-button secondary" href="mailto:chris@finneganpi.com">Email: chris@finneganpi.com</a>
+        </div>
+
+        <p class="mini-note">
+          Regular service area: Fresno • Madera • Merced • Mariposa Counties
         </p>
       </header>
 
       <hr class="decorative-hr" />
 
       <main>
+
         <section>
-          <h2>Independent investigations for employers, agencies, and counsel</h2>
+          <h2>QED Investigations</h2>
           <p>
-            QED Investigations provides independent administrative and workplace investigations for public agencies, private employers, and legal counsel throughout California’s Central Valley.
-            Investigations are conducted objectively and documented with clear findings based on evidence, witness statements, and applicable policy.
+            QED Investigations is a professional private investigation firm providing objective, thorough, and legally defensible investigative services to individuals, attorneys, businesses, and public agencies. Led by an experienced, licensed California Private Investigator, the firm specializes in administrative and workplace investigations, personnel matters, fact-finding inquiries, and civil violations. QED Investigations is committed to impartiality, meticulous documentation, and clear reporting, delivering findings that withstand scrutiny and support informed decision-making.
+          </p>
+
+          
+        </section>
+
+        <section>
+          <h2>Administrative & Workplace Investigations</h2>
+          <p>
+            Administrative and workplace investigations are fact-based inquiries often initiated after allegations of misconduct, policy violations,
+            or complaints such as harassment, discrimination, retaliation, or other conduct creating legal or operational risk for an organization.
+          </p>
+          <ul>
+            <li><strong>Employee misconduct</strong> and policy violations</li>
+            <li><strong>Harassment, discrimination, and retaliation</strong> complaints</li>
+            <li><strong>Workplace violence</strong>, threats, intimidation, safety incidents</li>
+            <li><strong>Ethics violations</strong> and conflicts of interest</li>
+            <li><strong>Failure to follow procedures</strong> or supervisory direction</li>
+          </ul>
+          <p>
+            My approach emphasizes confidentiality, thorough interviews, evidence review, timeline development, credibility analysis, and clear documentation.
           </p>
         </section>
 
         <section>
-          <h2>Common matters addressed</h2>
+          <h2>Professional Experience</h2>
+          <p>
+            I bring extensive experience from a 28-year career with the California Highway Patrol, including supervisory and investigative roles.
+            This background includes both criminal and administrative investigations, policy interpretation, and high-stakes incident work.
+          </p>
           <ul>
-            <li>Employee misconduct and policy violations</li>
-            <li>Harassment, discrimination, and hostile work environment complaints</li>
-            <li>Workplace violence threats and safety-related incidents</li>
-            <li>Dishonesty, fraud, time theft, and property theft allegations</li>
-            <li>Alcohol/drug impairment and fitness-for-duty concerns</li>
-            <li>Critical incident / administrative reviews (as appropriate to scope)</li>
+            <li><strong>Personnel & Administrative Investigations:</strong> employee misconduct, excessive force, on-duty alcohol/drug impairment, fraud, theft, workplace violence</li>
+            <li><strong>Traffic Collision Investigations:</strong> complex collisions resulting in serious injury or death, including cases with criminal charges</li>
+            <li><strong>Officer-Involved Shootings:</strong> critical incident supervision and investigation</li>
+            <li><strong>Auto Theft:</strong> detection, recovery, and follow-up investigations</li>
+            <li><strong>Environmental Crimes:</strong> incidents involving hazardous materials release (intentional or accidental)</li>
+            <li><strong>Vehicle Inspections:</strong> comprehensive pre-collision and post-collision inspections (commercial and passenger vehicles)</li>
+            <li><strong>Surveillance Operations:</strong> mobile and stationary, day and night operations</li>
+            <li><strong>Specialized Training:</strong> Reid technique, hazardous materials specialist, drug recognition expert, FBI trained firearms instructor</li>
           </ul>
         </section>
 
         <section>
-          <h2>Process and deliverables</h2>
-          <ul>
-            <li>Intake and scope definition (objectives, policy framework, stakeholders)</li>
-            <li>Interview planning and witness sequencing</li>
-            <li>Interviews, evidence collection, and documentation</li>
-            <li>Findings supported by facts and corroboration where available</li>
-            <li>Deliverables by request: written report, executive summary, or briefing</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Service area</h2>
+          <h2>About Chris Finnegan</h2>
           <p>
-            Fresno County, Madera County, Merced County, Mariposa County, and surrounding Central Valley jurisdictions.
+            I am a California-licensed private investigator who retired from the California Highway Patrol in 2022 after 28 years of dedicated service. I hold a Bachelor of Science degree in Criminal Justice from California State University, Long Beach, and have pursued advanced studies in mathematics. My investigative expertise is built on a broad career in both patrol officer and supervisory roles. These include serving as a Patrol Officer/Supervisor, Investigative Unit Supervisor, Academy Firearms Instructor, and Commercial Vehicle Unit Supervisor, as well as holding administrative assignments responsible for writing, reviewing, and interpreting policy at the highest levels of the Department. I have extensive experience conducting criminal and administrative investigations that routinely resulted in criminal charges or disciplinary actions. My promise to every client is to deliver a thorough, ethical, and confidential investigation that uncovers the facts of each case.
           </p>
         </section>
 
         <section>
-          <h2>Request a confidential consultation</h2>
-          <p class="contact-inline" style="justify-content:center; gap:2rem;">
-            <a href="tel:+15593730901">(559) 373-0901</a>
-            <a href="mailto:chris@finneganPI.com">chris@finneganPI.com</a>
+          <h2>Regular Service Area</h2>
+          <p>
+            I regularly serve clients in the following California counties:
+          </p>
+          <ul>
+            <li><strong>Fresno County</strong></li>
+            <li><strong>Madera County</strong></li>
+            <li><strong>Merced County</strong></li>
+            <li><strong>Mariposa County</strong></li>
+          </ul>
+          <p>
+            If your matter is outside these counties, contact me—many investigative services can still be discussed depending on scope and logistics.
           </p>
         </section>
+
+        <section>
+          <h2>Frequently Asked Questions</h2>
+
+          <p><strong>Should I only hire a private investigator licensed in California?</strong><br>
+            Yes. California private investigators must hold a valid license issued by the Bureau of Security and Investigative Services.
+            My PI license number is <strong>189960</strong> and can be verified at
+            <a href="https://search.dca.ca.gov/" target="_blank" rel="noopener noreferrer">search.dca.ca.gov</a>.
+          </p>
+
+          <p><strong>Should a private investigator carry insurance?</strong><br>
+            Yes. Although not required by law, general and professional liability insurance is strongly recommended and is an indicator of professionalism.
+          </p>
+
+          <p><strong>Who conducts the investigation?</strong><br>
+            I personally manage and conduct every aspect of the case, and you will have direct access to me throughout the process.
+          </p>
+
+          <p><strong>Will you coordinate with our attorney?</strong><br>
+            Yes. I will coordinate with any entity you request, including legal counsel, to align investigative strategy and reporting with your objectives.
+          </p>
+
+          <p><strong>Will we receive a report?</strong><br>
+            Yes. You can receive anything from a comprehensive written report with timelines, findings, and supporting materials, to a verbal summary, depending on your needs.
+          </p>
+
+          <p><strong>Will there be a written agreement outlining scope and fees?</strong><br>
+            Yes. You will receive a clear written agreement detailing scope, fee structure, and conditions before work begins.
+          </p>
+
+          <p><strong>Can you guarantee the outcome I’m seeking?</strong><br>
+            No. Ethical standards prohibit promising specific results. My commitment is a thorough, lawful, objective investigation.
+          </p>
+        </section>
+
+        <section>
+          <h2>Request a No-Obligation Confidential Consultation</h2>
+          <p>
+            If you need an independent investigator for a workplace matter, administrative investigation, or related investigative service, contact me to discuss scope and next steps.
+          </p>
+
+          
+
+          <div class="simple-form">
+            <form action="https://formsubmit.co/788c9df92158a4a614125f6e4ffad3e3" method="POST"
+                  onsubmit="gtag('event','form_submit',{'page':'administrative-investigations'});">
+              <label style="display:block; font-weight:bold; color:#5f6b78;">Your Name</label>
+              <input type="text" name="name" required>
+
+              <label style="display:block; font-weight:bold; color:#5f6b78; margin-top:0.75rem;">Your Email</label>
+              <input type="email" name="email" required>
+
+              <label style="display:block; font-weight:bold; color:#5f6b78; margin-top:0.75rem;">How can I help?</label>
+              <textarea name="message" required></textarea>
+
+              <button type="submit" class="inline-button" style="margin-top:0.85rem; background-color:#1f6fe5;">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </section>
+
+        <div class="back-home">
+          <a class="inline-button" href="/" style="background-color:#a3493f;">
+            ← Return Home
+          </a>
+        </div>
+
+        <footer style="text-align:center; margin-top:2rem;">
+          <p style="color:#a3493f;">&copy; <span id="year"></span> QED Investigations</p>
+          <p class="footer-cookie-notice" style="color:#5f6b78;">
+            <a href="/privacy-policy.html" style="color:#5f6b78;">Privacy Policy</a>.
+          </p>
+        </footer>
+
       </main>
 
-      <footer>
-        <p style="color:#a3493f;">&copy; <span id="year"></span> QED Investigations</p>
-      </footer>
     </div>
   </div>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>

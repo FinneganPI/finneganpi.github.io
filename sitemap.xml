@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://finneganpi.com/</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-12-28</lastmod>
     <priority>1.0</priority>
   </url>
 
@@ -11,4 +11,11 @@
     <lastmod>2025-12-27</lastmod>
     <priority>0.8</priority>
   </url>
+
+  <url>
+  <loc>https://finneganpi.com/privacy-policy.html</loc>
+  <lastmod>2025-12-28</lastmod>
+  <priority>0.3</priority>
+  </url>
+
 </urlset>
