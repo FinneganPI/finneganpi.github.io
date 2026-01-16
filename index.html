@@ -325,12 +325,17 @@
     // Modal functionality
     const overlay = document.getElementById('modalOverlay');
     document.querySelectorAll('.modal-button').forEach(btn => {
-      btn.addEventListener('click', () => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+
         const modal = document.getElementById(btn.dataset.target);
+        if (!modal) return;
+
         modal.classList.add('open');
         overlay.classList.add('open');
       });
     });
+
     document.querySelectorAll('.modal-close').forEach(x => {
       x.addEventListener('click', () => {
         x.closest('.modal').classList.remove('open');
