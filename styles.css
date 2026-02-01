@@ -515,22 +515,24 @@ footer {
     width: 100%;
   }
 
-  /* Mobile Tagline Overrides */
+  /* Updated Mobile Tagline - Fixes Madera Visibility */
   .tagline {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;       /* Allows counties to wrap properly */
     justify-content: center;
-    gap: 0.2rem;
+    gap: 0.3rem;           /* Spacing between county names */
     letter-spacing: 0.02em;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     text-align: center;
+    padding: 0 10px;
   }
-  .tagline .contact-word:nth-child(3) {
-    display: none !important;
+
+  /* Force all words in the tagline to be visible */
+  .tagline .contact-word {
+    display: inline-block !important;
+    flex-basis: auto !important;
   }
-  .tagline .contact-word:nth-child(4) {
-    flex-basis: 100%;
-  }
+  
 
   /* Mobile Contact-Line Overrides */
   .contact-inline a + a::before {
