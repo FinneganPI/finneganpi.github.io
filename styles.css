@@ -140,7 +140,7 @@ header {
   border: 0;
   height: 2px;
   background: #c8102e;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 /* Contact inline */
@@ -150,7 +150,7 @@ header {
   align-items: center;
   width: 100%;
   gap: 3.5rem;     /* ← tweak this number until it feels right */
-  margin-top: 1.5rem;
+  margin-top: 1.0rem;
   letter-spacing: 0.1em;
   font-size: 1.5rem;
   font-weight: bold;
@@ -180,7 +180,7 @@ header {
 /* Footer styling */
 footer {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 1.1rem;
   color: #5f6b78;
 }
@@ -572,8 +572,63 @@ footer {
   }
 
 }
+/* --- UPDATED SEO & BRANDING STYLES --- */
 
-  
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
 
+/* Larger but still secondary to your name */
+.profession-primary {
+  font-family: 'Copperplate', serif;
+  font-size: 1.1rem;
+  color: #5f6b78;
+  /* Adjust this number to add or remove space */
+  margin-bottom: 8px; 
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* Required for the margin to take effect */
+  display: block; 
+}
 
+/* RESTORED: Your original prominent branding */
+.name-secondary {
+  font-family: 'Copperplate Bold', 'Copperplate Gothic Bold', Copperplate, serif;
+  font-size: 2.1rem;
+  color: #a3493f;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-top: 0; /* Changed from -5px or 2px to 0 */
+}
 
+/* Styling for the county list */
+.tagline {
+  color: #5f6b78;
+  font-family: 'Copperplate', serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* Discreet license line at the bottom */
+.license-line {
+  font-size: 1.0rem;
+  color: #5f6b78;
+  font-family: 'Copperplate', serif;
+  font-weight: bold;
+  margin-top: 0.9rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .name-secondary { font-size: 1.5rem; }
+  .profession-primary { font-size: 0.85rem; }
+  .tagline { font-size: 0.7rem; }
+}
